@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
+body {
+    background-color: PaleGreen;
+    color: SlateBlue;
+}
+
+a {
+    color: DimGray;
+    font-size: large;
+    text-decoration: none;
+}
+
+section {
+    background-color: PapayaWhip;
+}
+
+nav {
+    background-color: PeachPuff;
+}
