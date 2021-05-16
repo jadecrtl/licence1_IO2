@@ -1,0 +1,39 @@
+ul li ul {
+	display: none;
+}
+
+#menu {
+	width: 200px;
+	color: white;
+	background-color: grey;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0px;
+}
+
+#menu li {
+	border-color: black;
+	border-style: solid;
+	text-align: center;
+}
+
+#menu li:hover {
+	background-color: black;
+	text-decoration: underline;
+}
+
+#menu li:hover ul {
+	display: block;
+	background-color: grey;
+}
+
+#menu li:hover ul li a {
+	color: black;
+	text-decoration: underline;
+}
+
+#menu li ul li:hover {
+	background-color: lightgrey;
+}
